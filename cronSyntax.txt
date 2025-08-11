@@ -10,6 +10,6 @@
 10. H/5 * * * *     poll SCM every 5 minutes using hash (H) to distribute load
 11. 59 23 * * *     poll SCM every day at 11:59 PM
 12. */20 18-23 * * *  poll SCM every 20 minutes between 6 PM and midnight.
-13. * 8-20 * * *    poll SCM only at 8:00 AM and 8:00 PM daily
+13. * 8,20 * * *    poll SCM only at 8:00 AM and 8:00 PM daily
 14. */5 * * * 1-5   poll SCM every 5 minutes between Monday and Friday
 15. H 15 * * *      poll SCM every day at a random time in the 3 PM hour
